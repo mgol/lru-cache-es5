@@ -2,18 +2,18 @@
 
 A cache object that deletes the least-recently-used items.
 
-[![Build Status](https://travis-ci.org/isaacs/node-lru-cache.svg?branch=master)](https://travis-ci.org/isaacs/node-lru-cache) [![Coverage Status](https://coveralls.io/repos/isaacs/node-lru-cache/badge.svg?service=github)](https://coveralls.io/github/isaacs/node-lru-cache)
+[![Build Status](https://travis-ci.org/mgol/lru-cache-es5.svg?branch=master)](https://travis-ci.org/mgol/lru-cache-es5) [![Coverage Status](https://coveralls.io/repos/mgol/lru-cache-es5/badge.svg?service=github)](https://coveralls.io/github/mgol/lru-cache-es5)
 
 ## Installation:
 
-```javascript
-npm install lru-cache --save
+```shell
+npm install @mgol/lru-cache-es5 --save
 ```
 
 ## Usage:
 
 ```javascript
-var LRU = require("lru-cache")
+var LRU = require("@mgol/lru-cache-es5")
   , options = { max: 500
               , length: function (n, key) { return n * 2 + key.length }
               , dispose: function (key, n) { n.close() }

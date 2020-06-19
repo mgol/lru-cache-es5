@@ -1,7 +1,7 @@
 {
-  "name": "lru-cache",
+  "name": "@mgol/lru-cache-es5",
   "description": "A cache object that deletes the least-recently-used items.",
-  "version": "5.1.1",
+  "version": "5.1.2-mgol.1-pre",
   "author": "Isaac Z. Schlueter <i@izs.me>",
   "keywords": [
     "mru",
@@ -17,7 +17,7 @@
     "postpublish": "git push origin --all; git push origin --tags"
   },
   "main": "index.js",
-  "repository": "git://github.com/isaacs/node-lru-cache.git",
+  "repository": "git://github.com/mgol/lru-cache-es5.git",
   "devDependencies": {
     "benchmark": "^2.1.4",
     "tap": "^12.7.0"
