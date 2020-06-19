@@ -14,7 +14,7 @@
     "snap": "TAP_SNAPSHOT=1 tap test/*.js -J",
     "coveragerport": "tap --coverage-report=html",
     "preversion": "npm test",
-    "postversion": "npm publish",
+    "postversion": "npm publish --access public",
     "postpublish": "git push origin --all; git push origin --tags"
   },
   "main": "index.js",
