@@ -2,6 +2,8 @@
 
 A cache object that deletes the least-recently-used items.
 
+**NOTE:** This is a fork of [`lru-cache`](https://www.npmjs.com/package/lru-cache) aimed at restoring ES5 compatibility. This is done because of my own needs. There is no support, use at your own risk.
+
 [![Build Status](https://travis-ci.org/mgol/lru-cache-es5.svg?branch=master)](https://travis-ci.org/mgol/lru-cache-es5) [![Coverage Status](https://coveralls.io/repos/mgol/lru-cache-es5/badge.svg?service=github)](https://coveralls.io/github/mgol/lru-cache-es5)
 
 ## Installation:
