@@ -1,6 +1,6 @@
 var test = require('tap').test
 var LRU = require('../')
-var Yallist = require('yallist')
+var Yallist = require('../dist/vendor/yallist/yallist')
 
 test('dump', function (t) {
   var cache = new LRU()

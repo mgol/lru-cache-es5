@@ -9,7 +9,7 @@
     "cache"
   ],
   "scripts": {
-    "transpile": "babel index-source.js --out-file index.js",
+    "transpile": "babel src --out-dir dist",
     "test": "npm run transpile && tap test/*.js",
     "snap": "TAP_SNAPSHOT=1 tap test/*.js -J",
     "coveragerport": "tap --coverage-report=html",
@@ -27,9 +27,7 @@
     "tap": "^12.7.0"
   },
   "license": "ISC",
-  "dependencies": {
-    "yallist": "^3.0.2"
-  },
+  "dependencies": {},
   "files": [
     "index.js"
   ]
